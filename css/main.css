@@ -1,0 +1,210 @@
+section {
+    padding-top: 2.5em;
+    margin-bottom: 2em;
+}
+
+body {
+    background-color: #252627;
+}
+
+.btn-group {
+    margin-top: 3em;
+    margin-right: 2em;
+    background-color: #008080;
+}
+
+.nav-link {
+    font-size: 2em;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    color: #008080 !important;
+}
+
+.nav-link:hover {
+    background: none !important;
+    color: #b3003b !important;
+    font-size: 2.2em;
+
+}
+
+.yo {
+    font-size: 6.5em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    color: #00994d;
+    font-family: 'Rancho', cursive;
+}
+
+.text-me {
+    font-size: 3.4em;
+    color: #00ace6;
+    font-family: 'Rancho', cursive;
+
+}
+
+.cont-photo {
+    width: 100%;
+    height: 254px;
+    border-radius: 90px;
+}
+
+.photo {
+    width: 100%;
+    height: 254px;
+    border-radius: 90px;
+}
+
+#bg-skills {
+    background-image: url('../fotos/low-poly.jpg');
+    background-attachment: fixed;
+    background-size: 100% 485px;
+    background-repeat: no-repeat;
+    height: 485px;
+}
+
+/*...............................................*/
+
+.total-3 {
+    width: 85%;
+    height: 200px;
+    border-radius: 66%;
+}
+
+.position-box {
+    float: left;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border-radius: 66%;
+    
+}
+
+.position-box .box-violet {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 85%;
+    height: 200px;
+    text-align: center;
+    color: black;
+    opacity: 0;
+    background: rgba(160, 32, 162,.9);
+    border-radius: 66%;
+    
+}
+
+.position-box .box-violet .box-content {
+    position: absolute;
+    top: 32%;
+    width: 80%;
+    height: 164px;
+    text-align: center center;
+    
+}
+
+.position-box:hover .box-violet {
+    opacity: 0.9;
+}
+
+
+/*...............................................*/
+
+.sub-titles {
+    font-size: 3em;
+    margin-bottom: 1em;
+    color: #008080;
+    font-family: 'Rancho', cursive;
+
+}
+
+.text {
+    font-size: 3.4em;
+    color: #cc0099;
+    font-family: 'Rancho', cursive;
+    margin-bottom: 1.5em;
+}
+
+.section-proyects {
+    background-image: url("../fotos/sec-2.jpg");
+    background-size: 100% 485px;
+    height: 505px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.size-icon {    
+    color: white;
+}
+
+.contact {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.square {
+    width: 85%;
+    height: 200px;
+    border-radius: 8%;
+}
+
+.filter {
+    width: 85%;
+    height: 200px;
+    border-radius: 8%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    background: #ffffff;
+}
+
+.description {
+    position: absolute;
+    top: 24%;
+    width: 80%;
+    height: 170px;
+    text-align: center center;
+}
+
+.filter:hover {
+    opacity: 0.6;
+}
+
+.project-category {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: #00ace6;
+}
+/*.................................................................................*/
+
+.my-bg {
+    background-image: url("../fotos/myBicicle.jpg");
+    background-size: 100% 532px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 528px;
+}
+
+.me {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: #800040;
+    font-size: 4.5em;
+}
+
+.to {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: #00264d;
+    font-size: 3em;
+}
+
+footer {
+    padding: 4em;
+}
